@@ -1,0 +1,32 @@
+.jumbotron{
+    color: black !important;
+    
+}
+
+
+.customJumboBg{
+    background-image: url("../img/career3.jpg");
+    }
+
+
+body{
+        background-color: rgb(253, 254, 255) !important;
+    }
+
+    .footer{
+        background-color: black;
+        height: 200px;
+        display: block;
+        margin-top: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
