@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title> 
+
+    <link rel="stylesheet" href="./assets/css/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+</head>
+<body class="signup-back">
+
+     <!-- NAVIGATION BAR.-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">CareerGrip</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Offers
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">PROGRAMS</a>
+                        <a class="dropdown-item" href="#">CAREER COACH</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">CV REVIEW</a>
+                      </div>
+                    </li>
+                    
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <a class="btn btn-outline-success my-2 my-sm-0" href="login.html" role="button">LOG IN</a>
+                    <a class="btn btn-outline-success my-2 my-sm-0" href="signup.html" role="button">SIGN UP</a>
+                  </form>
+                </div>
+              </nav>
+
+              <!-- BOOTSTRAP JMBOTRON.-->
+
+              <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div class="form" style="width:400px">
+                                <form>
+                                    <legend class="formlegend text-center">Create Account</legend>
+                                    <div class="form-group">
+                                        <label for="firstname">First name</label>
+                                        <input type="text" class="form-control" id="firstname" placeholder="Enter First name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastname">Last name</label>
+                                        <input type="text" class="form-control" id="lastname" placeholder="Enter Last name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailaddress">Email address</label>
+                                        <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp"
+                                            placeholder="Enter email" required>
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                            anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastname">Password</label>
+                                        <input type="text" class="form-control" id="lastname" placeholder="Enter Your Password" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phoneno">Phone number</label>
+                                        <input type="tel" class="form-control" id="phoneno" placeholder="Enter Phone number" required>
+                                    </div>
+                                    <div class="form-row">
+                                        <legend class="dateofbirthlegend">Date of birth</legend>
+                                            <div class="form-group col-md-4">
+        
+                                                <select class="custom-select " id="yearselect">
+                                                    <option selected>Year...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <select class="custom-select " id="monthselect">
+                                                    <option selected>Month...</option>
+                                                    <option value="1">Jan</option>
+                                                    <option value="2">Feb</option>
+                                                    <option value="3">Mar</option>
+                                                    <option value="4">Apr</option>
+                                                    <option value="5">May</option>
+                                                    <option value="6">Jun</option>
+                                                    <option value="7">Jul</option>
+                                                    <option value="8">Aug</option>
+                                                    <option value="9">Sep</option>
+                                                    <option value="10">Oct</option>
+                                                    <option value="11">Nov</option>
+                                                    <option value="12">Dec</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <select class="custom-select " id="dayselect">
+                                                    <option selected>Day...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gender">Gender</label>
+                                        <select class="custom-select " id="gender">
+                                            <option selected>Choose...</option>
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+        
+                                    <div class="signupbtn text-center">
+                                        <button type="submit" class="btn ">Sign Up</button>
+        
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+
+
+
+
+               
+<br>
+                  <!--FOOTER-->
+
+                  <div class="footer">
+
+                  </div>
+            
+
+                  
+</body>
+</html>
