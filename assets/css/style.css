@@ -13,18 +13,102 @@ body{
         background-color: rgb(253, 254, 255) !important;
     }
 
-    .footer{
+.footer{
         background-color: black;
         height: 200px;
         display: block;
         margin-top: 400px;
-    }
+}
+
+.signup-back{
+    background-image: url("../img/career3.jpg")
+}
 
 
+/* FORM */
+
+.form{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+    margin-top: 120px;
+}
+/*.form{
+    background-color: rgb(32,99,155, .2);
+}
+.form:hover{
+    background-color: rgb(32,99,155);
+}*/
+
+.form{
+    background-color: rgba(242, 242, 248, 0.5);
+}
+.form:hover{
+    background-color: rgb(13, 13, 14);
+}
+.formlegend{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
 
 
+.signupbtn .btn{
+    background-color: white;
+    color:rgb(32,99,155);
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 7px 35px;
+    font-size: 14px;
+    box-shadow: 1px grey;
+    margin-top: 20px;
+}
 
+.form label{
+    color: rgb(138, 133, 133);
+    font-size: 16px;
+}
 
+.form .dateofbirthlegend{
+    color: grey;
+    font-size: 16px;
+    padding-left: 6px;
+}
+
+.form .form-control{
+    border: none;
+    border-radius: 0px;
+    background-color: lavender;
+    font-size: 12px;
+    color: black
+    
+}
+
+.form .custom-select{
+    border: none;
+    border-radius: 0px;
+    background-color: lavender;
+    font-size: 12px;
+    
+}
+
+h1.ted{
+    color:white;
+    margin-top: 80px;
+
+}
+
+.jobdesc{
+    height: 500px;
+    display: block;
+    background-color:rgba(242, 242, 248, 0.5);
+    margin-bottom: 0px;
+}
 
 
 
