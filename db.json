@@ -1,0 +1,84 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "firstname": "Akorede",
+      "lastname": "Olawole",
+      "email": "akoredeolawole@gmail.com",
+      "phonenum": "08102528777",
+      "gender": "male"
+    },
+    {
+      "{\"userName\": \"vhvhvh\", \"password\" : \"mbjbujhbv\"}": "",
+      "id": 2
+    },
+    {
+      "{\"userName\": \"Admin\", \"password\" : \"Admin\"}": "",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Orisanaye",
+      "lastname": "David",
+      "email": "kidoso4u@gmail.com",
+      "phonenum": "08168569171",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "firstname": "Eweje",
+      "lastname": "Gbenga",
+      "email": "eweje@gmail..com",
+      "phonenum": "08066607407",
+      "gender": "male"
+    },
+    {
+      "id": 3,
+      "firstname": "Daniel",
+      "lastname": "Dorcas",
+      "email": "princesskeji@gmail.com",
+      "phonenum": "09017754216",
+      "gender": "female"
+    },
+    {
+      "id": 4,
+      "firstname": "olagunloye",
+      "lastname": "temitope",
+      "email": "badderman@gmail.com",
+      "phonenum": "09080829473",
+      "gender": "male"
+    },
+    {
+      "id": 5,
+      "firstname": "Olaide",
+      "lastname": "Akorede",
+      "email": "olaideakorede@gmail.com",
+      "phonenum": "08098786565",
+      "gender": "female"
+    },
+    {
+      "firstname": "Bolanle",
+      "lastname": "arogundade",
+      "email": "bolanle@gmail.com",
+      "phonenum": "08168569898",
+      "gender": "male",
+      "id": 6
+    }
+  ],
+  "jobs": [
+    {
+      "name": "typicode"
+    },
+    {
+      "name": "typicode"
+    },
+    {
+      "name": "typicode"
+    },
+    {
+      "name": "typicode"
+    }
+  ]
+}
